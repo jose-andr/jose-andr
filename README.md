@@ -1,16 +1,27 @@
-## Hi there 👋
+# Jose Andrade
 
-<!--
-**jose-andr/jose-andr** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Business Designer and Systems Thinker.
 
-Here are some ideas to get you started:
+I help organisations make better strategic decisions by connecting:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- Customer outcomes
+- Organisational outcomes
+- Data and evidence
+- AI-enabled ways of working
+
+## Current Focus
+
+- Strategic Operating System
+- AI-Augmented Business Design
+- Service Account Analytics
+- Channel Strategy
+- Decision Support Frameworks
+
+## Key Interests
+
+- Human-Centred Design
+- Service Design
+- Systems Thinking
+- Strategy
+- AI Agents
+- Decision Intelligence
