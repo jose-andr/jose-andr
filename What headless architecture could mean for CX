@@ -1,0 +1,311 @@
+# What headless architecture could mean for CX
+
+## Purpose
+
+I’d like to share a few early reflections on what I’ve learned about headless architecture and why it may matter for our CX roadmap, channel strategy, and the upcoming Enterprise Architecture review.
+
+This is not a technology recommendation.  
+It is a discussion about what CX should be aware of, how headless may apply to our Salesforce / Drupal / MuleSoft environment, and where CX may need to shape business input early.
+
+---
+
+## Why this conversation matters now
+
+The organisation is reviewing its Enterprise Architecture, with Deloitte expected to conduct an EA assessment this year.
+
+This creates an opportunity for CX to understand how future architecture decisions may affect our ability to deliver on the Channel Strategy and move toward more mature omnichannel service delivery.
+
+The risk is that architecture decisions may be shaped mainly by:
+
+- current platform pain points
+- technical maintenance load
+- licence and access pressures
+- fragmented input from different business areas
+- short-term fixes to today’s problems
+
+CX has a role in helping frame the business and customer outcomes the future architecture needs to enable.
+
+---
+
+## What I’ve learned about headless architecture
+
+Headless architecture separates the **experience layer** from the **systems and capability layer** underneath.
+
+In simple terms, the website, portal, forms, chat, staff interfaces or future digital touchpoints do not all need to be tightly bound to one platform interface.
+
+Instead, they can consume reusable capabilities such as:
+
+- customer data
+- case status
+- content
+- service rules
+- payments
+- notifications
+- identity and preferences
+- workflow steps
+
+through APIs, integrations or shared services.
+
+The key learning:
+
+> Headless is not just an IT concept. It changes how we think about customer experience, channel strategy and future roadmap investment.
+
+---
+
+## Why this matters for omnichannel
+
+Our Channel Strategy is already pointing toward outcomes that require stronger connectivity across systems and channels.
+
+These include:
+
+- customers switching channels without starting again
+- customer context carrying across channels
+- faster and more personalised responses
+- consistent content, language and patterns
+- staff seeing the right information at the right time
+- better measurement of customer effort and channel movement
+- an investable roadmap based on evidence
+
+These outcomes are difficult to achieve if each channel is designed and optimised separately.
+
+The question becomes:
+
+> Are we designing better individual channels, or are we building reusable CX capabilities that can work across channels?
+
+---
+
+## How this applies to our environment
+
+### Salesforce
+
+Current question:
+
+> Do we need more Salesforce licences?
+
+Better architecture question:
+
+> Which users genuinely need Salesforce UI access, and which experiences only need selected Salesforce capability exposed through APIs, workflows or embedded context?
+
+Why this matters:
+
+If we scale by buying more Salesforce licences by default, we may solve a short-term access problem but increase long-term platform dependency and cost.
+
+In a headless or composable model, we need to distinguish between:
+
+- access to the Salesforce interface
+- access to Salesforce data, workflow and case context
+
+These are not always the same requirement.
+
+---
+
+### Drupal
+
+Current question:
+
+> How do we improve the website or content experience?
+
+Better architecture question:
+
+> How do we structure content so it can be reused across web, chat, forms, contact centre scripts, notifications and assisted service?
+
+Why this matters:
+
+If Drupal is treated only as a website CMS, content may remain channel-specific.
+
+In a headless model, content needs to become more:
+
+- structured
+- reusable
+- tagged
+- governed
+- channel-neutral where appropriate
+
+---
+
+### MuleSoft
+
+Current question:
+
+> Can MuleSoft connect the systems?
+
+Better architecture question:
+
+> Are we designing APIs around reusable business and customer capabilities?
+
+Examples of reusable capabilities might include:
+
+- check case status
+- update customer details
+- retrieve service eligibility
+- submit evidence
+- trigger notification
+- hand over from digital to assisted service
+- preserve customer context across channels
+
+Why this matters:
+
+APIs alone do not create omnichannel. They need to be shaped around real customer journeys and service outcomes.
+
+---
+
+## What we need to be aware of
+
+### 1. Headless can create flexibility, but also requires governance
+
+Decoupling the front end from back-end systems can create more flexibility.
+
+However, without strong governance it can also create:
+
+- duplicated logic
+- inconsistent experiences
+- fragmented content
+- unclear ownership
+- higher coordination effort
+
+CX needs to be involved in defining experience standards, content rules, journey patterns and service handover principles.
+
+---
+
+### 2. More platform access may solve symptoms, not causes
+
+More licences or more platform access may be the right tactical answer in some cases.
+
+However, we should avoid assuming that every access problem requires more users inside the same platform UI.
+
+Sometimes the better question is:
+
+> What information, workflow or customer context needs to appear in the right place, at the right time, for the right user?
+
+---
+
+### 3. Business input into EA needs to be capability-led, not pain-point-led
+
+Traditional business consultation can become a list of pain points from different areas.
+
+That can lead to architecture decisions being shaped by the loudest problems or best-funded areas.
+
+A better approach is to frame business input around future capabilities.
+
+For example:
+
+- customer identity and recognition
+- case context
+- channel handover
+- reusable content
+- service eligibility
+- notifications
+- journey analytics
+- staff guidance
+- preference and consent management
+
+---
+
+### 4. CX and IT goals can align
+
+IT may be focused on reducing complexity, risk and maintenance load.
+
+CX is focused on improving customer and staff experience, reducing friction, and enabling omnichannel service delivery.
+
+These goals are compatible if architecture decisions are framed around reusable capability and long-term service outcomes.
+
+---
+
+## Opportunities for CX
+
+### Opportunity 1: Define what omnichannel capability actually requires
+
+CX can help define the capabilities needed to support the Channel Strategy, such as:
+
+- channel continuity
+- context carry-over
+- consistent service language
+- structured content
+- case visibility
+- service handover patterns
+- customer effort measurement
+- journey-level performance indicators
+
+---
+
+### Opportunity 2: Shape better investment questions
+
+CX can help shift the conversation from:
+
+> Are we buying more platform access?
+
+to:
+
+> Are we investing in reusable capability that supports future service delivery?
+
+This is especially relevant to decisions about Salesforce scaling, Drupal content models, MuleSoft integrations and future digital channels.
+
+---
+
+### Opportunity 3: Feed strategic use cases into the EA review
+
+Instead of only gathering current-state pain points, CX could help define a small set of strategic use cases for the EA review.
+
+Possible use cases:
+
+1. A customer starts a request online and completes it with assisted support without repeating themselves.
+2. A staff member sees relevant customer and case context without needing to access multiple systems.
+3. Service content is updated once and reused across web, chat, email and contact centre guidance.
+4. A customer tracks a request across channels.
+5. A customer receives proactive notifications based on case status.
+6. A service journey is measured end-to-end across channels, not just within one platform.
+
+---
+
+### Opportunity 4: Create a CX architecture-readiness lens
+
+We could assess roadmap activities using questions such as:
+
+| Question | Why it matters |
+|---|---|
+| Does this create reusable capability? | Avoids one-off channel solutions |
+| Does it support channel continuity? | Builds omnichannel maturity |
+| Does it reduce or increase platform dependency? | Supports smarter architecture decisions |
+| Does it improve customer and staff experience? | Keeps architecture outcome-led |
+| Does it reduce long-term maintenance load? | Aligns with IT goals |
+| Can it be tested through a pilot? | Reduces risk and builds evidence |
+
+---
+
+## Possible discussion questions
+
+- What does headless architecture mean for our CX roadmap?
+- Which CX capabilities should we define before architecture recommendations are finalised?
+- Where might current investment decisions create future constraints?
+- How do we avoid solving today’s access problems in ways that limit tomorrow’s omnichannel model?
+- What business questions should CX contribute to the EA review?
+- Where should CX, IT and Enterprise Planning align before recommendations are formed?
+- What would be a useful next step: a learning note, a short briefing, or a lightweight decision framework?
+
+---
+
+## Suggested framing
+
+We are not asking:
+
+> Should CX advocate for headless architecture?
+
+We are asking:
+
+> What does CX need to understand, influence and prepare for if the organisation moves toward a more headless or composable architecture?
+
+And:
+
+> How do we make sure future architecture decisions enable the Channel Strategy and omnichannel service delivery?
+
+---
+
+## Possible next step
+
+Prepare a short learning note or briefing that captures:
+
+1. What headless architecture means in plain language.
+2. Why it matters for omnichannel.
+3. How it applies to Salesforce, Drupal and MuleSoft.
+4. What risks and opportunities CX should be aware of.
+5. What business questions CX should feed into the Enterprise Architecture review.
